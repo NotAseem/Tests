@@ -1,15 +1,16 @@
-def greeting(self, name):
-    print(f"greeting called with name={name}")
-    print(f"greeting called with name={name}")
-    print(f"greeting called with name={name}")
-    print(f"greeting called with name={name}")
-    print(f"greeting called with name={name}")
-    print(f"greeting called with name={name}")
-    print(f"greeting called with name={name}")
-    print(f"greeting called with name={name}")
-    print(f"greeting called with name={name}")
-    print(f"greeting called with name={name}")
-    return f"Hello, {name}!"
+class single_method:
+    def greeting(self, name):
+        print(f"greeting called with name={name}")
+        print(f"greeting called with name={name}")
+        print(f"greeting called with name={name}")
+        print(f"greeting called with name={name}")
+        print(f"greeting called with name={name}")
+        print(f"greeting called with name={name}")
+        print(f"greeting called with name={name}")
+        print(f"greeting called with name={name}")
+        print(f"greeting called with name={name}")
+        print(f"greeting called with name={name}")
+        return f"Hello, {name}!"
 
 
 class Rectangle:
