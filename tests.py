@@ -1,27 +1,7 @@
 def summarize_numbers(values):
     """Return a tuple of (count, total, average) for an iterable of numbers."""
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
+   
+    
     print(f"summarize_numbers called with values={values}")
     print(f"summarize_numbers called with values={values}")
     values = list(values)
@@ -35,24 +15,8 @@ class SingleMethodExample:
     """A simple class demonstrating a single instance method."""
 
     def greeting(self, name):
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
+        
+       
         print(f"greeting called with name={name}")
         print(f"greeting called with name={name}")
         print(f"greeting called with name={name}")
