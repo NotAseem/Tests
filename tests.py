@@ -1,16 +1,3 @@
-def summarize_numbers(values):
-    """Return a tuple of (count, total, average) for an iterable of numbers."""
-   
-    
-    print(f"summarize_numbers called with values={values}")
-    print(f"summarize_numbers called with values={values}")
-    values = list(values)
-    count = len(values)
-    total = sum(values) if values else 0
-    average = (total / count) if count else 0
-    return count, total, average
-
-
 class SingleMethodExample:
     """A simple class demonstrating a single instance method."""
 
@@ -69,5 +56,4 @@ def demo():
         "is_square_3x4": Rectangle.is_square(3, 4),
         "square_area": square.area(),
         "greeting": greet,
-        "summary": summarize_numbers([1, 2, 3, 4]),
     }
