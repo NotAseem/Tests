@@ -1,4 +1,4 @@
-class single_method123:
+class single_method:
     def greeting(self, name):
         print(f"greeting called with name={name}")
         print(f"greeting called with name={name}")
