@@ -1,7 +1,5 @@
-class single_method:
+class single_method123:
     def greeting(self, name):
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
         print(f"greeting called with name={name}")
         print(f"greeting called with name={name}")
         print(f"greeting called with name={name}")
