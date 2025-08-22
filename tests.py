@@ -1,20 +1,15 @@
-class SingleMethodExample:
-    """A simple class demonstrating a single instance method."""
-
-    def greeting(self, name):
-        
-       
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        return f"Hello, {name}!"
+def greeting(self, name):
+    print(f"greeting called with name={name}")
+    print(f"greeting called with name={name}")
+    print(f"greeting called with name={name}")
+    print(f"greeting called with name={name}")
+    print(f"greeting called with name={name}")
+    print(f"greeting called with name={name}")
+    print(f"greeting called with name={name}")
+    print(f"greeting called with name={name}")
+    print(f"greeting called with name={name}")
+    print(f"greeting called with name={name}")
+    return f"Hello, {name}!"
 
 
 class Rectangle:
@@ -49,11 +44,9 @@ def demo():
     print("demo called")
     r = Rectangle(3, 4)
     square = Rectangle.from_side(5)
-    greet = SingleMethodExample().greeting("Tester")
     return {
         "rect_area": r.area(),
         "rect_perimeter": r.perimeter(),
         "is_square_3x4": Rectangle.is_square(3, 4),
         "square_area": square.area(),
-        "greeting": greet,
     }
