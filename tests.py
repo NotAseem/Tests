@@ -1,19 +1,12 @@
 class single_method:
-    def greeting1(self, name):
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        class second:
-            def funccc():
-                print("Hello")
-                def funccc2():
-                    print("HII123!")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        print(f"greeting called with name={name}")
-        return f"Hello, {name}!"
+    print(f"greeting called with name=")
+    print(f"greeting called with name=")
+    class second:
+        def funccc():
+            print("Hello")
+            def funccc2():
+                print("HII123!")
+       
 
 
 class Rectangle:
