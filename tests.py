@@ -45,7 +45,13 @@ class Rectangle:
     def from_side(cls, side_length):
         print(f"Rectangle.from_side called with side_length={side_length}")
         return cls(side_length, side_length)
-
+def demo2():
+    print("demo2 called")
+    print("demo2 called")
+    def demo3():
+        print("demo3 called")
+        print("demo3 called")
+    demo3()
 
 def demo():
     """Small demo that exercises the above utilities."""
