@@ -3,6 +3,8 @@ class single_method:
     print(f"greeting called with name=")
     def func31():
         print("HII123!45")
+    def func378():
+        print("HII123!45")
     def func32():
         print("HII123!45")
         def func33():
