@@ -4,10 +4,11 @@ class single_method:
     class second:
         def funccc():
             print("Hello")
+            def func32():
+                print("HII123!45")
             def funccc2():
                 print("HII123!45")
        
-
 
 class Rectangle:
     """A class with multiple methods and different method types."""
@@ -40,6 +41,9 @@ def demo():
     """Small demo that exercises the above utilities."""
     print("demo called")
     print("demo called")
+    def demo2():
+        print("demo2 called")
+        print("demo2 called")   
     r = Rectangle(3, 4)
     square = Rectangle.from_side(5)
     return {
