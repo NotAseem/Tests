@@ -68,3 +68,4 @@ def demo():
         "is_square_3x4": Rectangle.is_square(3, 4),
         "square_area": square.area(),
     }
+print(demo())
