@@ -39,6 +39,7 @@ class Rectangle:
 def demo():
     """Small demo that exercises the above utilities."""
     print("demo called")
+    print("demo called")
     r = Rectangle(3, 4)
     square = Rectangle.from_side(5)
     return {
