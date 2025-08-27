@@ -52,7 +52,7 @@ def demo2():
         print("demo3 called")
         print("demo3 called")
     demo3()
-
+print(demo2())
 def demo():
     """Small demo that exercises the above utilities."""
     print("demo called")
