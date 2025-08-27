@@ -17,9 +17,9 @@ class Rectangle:
         self.width = width
         self.height = height
 
-    def area(self, args):
+    def area(self):
         print(f"Rectangle.area called on width={self.width}, height={self.height}")
-        return self.width * self.height * self.height
+        return self.width * self.height
 
     def perimeter(self):
         print(f"Rectangle.perimeter called on width={self.width}, height={self.height}")
