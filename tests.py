@@ -1,13 +1,14 @@
 class single_method:
     print(f"greeting called with name=")
     print(f"greeting called with name=")
+    def func31():
+        print("HII123!45")
     def func32():
         print("HII123!45")
         def func33():
             print("HII123!45")
             def func34():
                 print("HII123!45")
-                def func35():
     class second:
         def funccc():
             print("Hello")
